@@ -80,7 +80,7 @@ function init() {
     .then((data) => {
       const readMeFileUserInput = generateMarkdown(data);
       //Answers are written to the readme file created
-      writeToFile("README.md", readMeFileUserInput);
+      writeToFile("./generated-readme/README.md", readMeFileUserInput);
     });
 }
 
